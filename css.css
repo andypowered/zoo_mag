@@ -1,0 +1,55 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: rgb(221, 202, 160);
+}
+.container {
+    margin-top: 100px;
+}
+a.asd {
+    display: block;
+    margin: 15px;
+    padding: 15px;
+    width: 250px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a.asd:hover {
+    background-color: #45a049;
+}
+
+
+h1 {
+    color: #4CAF50;
+}
+
+table {
+    width: 80%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd; 
+}
